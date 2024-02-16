@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="gameTitle">Pong, first to 10 pts wins</h1> <!-- Title for the game -->
+<div id="gameArea">
+    <div id="scoreA">Player A: 0</div>
+    <div id="scoreB">Player B: 0</div>
+    <div id="paddleA" class="paddle"></div>
+    <div id="paddleB" class="paddle"></div>
+    <div id="ball"></div>
+</div>
+<div id="winningScreen" style="display: none;">
+    <div id="winnerMessage"></div>
+    <button id="closeWinScreen">Play Again</button>
+</div>
+<button id="startButton">Start Game</button>
+<button id="resetButton">Reset Game</button>
+<script src="script.js"></script>
+</body>
+</html>

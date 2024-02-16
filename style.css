@@ -1,0 +1,112 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#gameArea {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background-color: #413939;
+    margin-bottom: 40px;
+}
+
+.paddle {
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    background-color: white;
+
+}
+
+#paddleA {
+    left: 20px;
+    top: 170px;
+    background-color: red;
+}
+
+#paddleB {
+    right: 20px;
+    top: 170px;
+    background-color: blue;
+}
+
+
+#ball {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #ecff00;
+    border-radius: 50%;
+    left: 295px;
+    top: 195px;
+}
+
+#scoreA, #scoreB {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#winningScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    z-index: 100;
+}
+
+#winningScreen #winnerMessage {
+    margin-bottom: 20px;
+}
+
+#winningScreen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#resetButton {
+    display: block;
+    margin: 30px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#startButton{
+    display: block;
+    margin: 30px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#gameTitle {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right:100px;
+}
+
+
+
+
+
+
+
